@@ -1,11 +1,9 @@
-import React from 'react'
-
-const Header = () => {
+function Header() {
   return (
-    <div>
-      <h1>shukri mohamed this is my first React application</h1>
-    </div>
-  )
+    <header style={{ padding: "1rem", backgroundColor: "#282c34", color: "#fff" }}>
+      <h1>My React App</h1>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
