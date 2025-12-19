@@ -8,6 +8,9 @@ import Inputer from "./components/Inputer.jsx";
 import WelcomeMassage from "./components/WelcomeMassage.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Notification from "./components/Notification.jsx";
+import ListProduct from "./components/ListProduct.jsx";
+import NameForm from "./components/NameForm.jsx";
+import UncontrolledComponant from "./components/UncontrolledComponant.jsx";
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
         <Dashboard isLoggedIn={true} />
         <Inputer />
         <Notification isLoggedIn={true} />
+        <ListProduct />
+        <NameForm />
+        <UncontrolledComponant />
       </div>
     </>
   );
